@@ -1,0 +1,18 @@
+GetKey	give me a major key to success
+GetKey	to give me a major key to success
+GetKey	for a major key to success
+GetKey	a major key to success
+GetKey	give me a key to success
+GetKey	to give me a key to success
+GetKey	for a key to success
+GetKey	a key to success
+GetKey	give me a major key
+GetKey	to give me a major key
+GetKey	for a major key
+GetKey	a major key
+GetKey	give me a key
+GetKey	to give me a key
+GetKey	for a key
+GetKey	a key
+GetKey	another one
+GetKey	anotha one

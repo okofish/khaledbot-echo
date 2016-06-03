@@ -1,0 +1,15 @@
+{
+  "name": "alexa-khaled",
+  "version": "1.0.0",
+  "description": "Delivers major keys to success through Amazon Echo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jesse Friedman <jesse@jesse.ws> (https://jesse.ws/)",
+  "license": "ISC",
+  "dependencies": {
+    "alexa-app": "^2.3.3",
+    "underscore": "^1.8.3"
+  }
+}
