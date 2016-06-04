@@ -9,7 +9,7 @@ var app = new alexa.app('KhaledBot');
 
 app.intent('GetKey', {
   slots: {},
-  utterances: ['{give me |to give me |for |}a {major|} key{ to success|}', '{another |anotha }one']
+  utterances: ['{give me |to give me |for |}a {major|} key{ to success|}', '{for |}{another |anotha }one']
 }, function(request, response) {
   var key = _.sample(keys);
   response.say(key);

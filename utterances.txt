@@ -14,5 +14,7 @@ GetKey	give me a key
 GetKey	to give me a key
 GetKey	for a key
 GetKey	a key
+GetKey	for another one
 GetKey	another one
+GetKey	for anotha one
 GetKey	anotha one
