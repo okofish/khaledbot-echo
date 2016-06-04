@@ -15,10 +15,18 @@ GetKey	to give me a key
 GetKey	for a key
 GetKey	a key
 GetKey	for another one
+GetKey	give me another one
+GetKey	to give me another one
 GetKey	another one
 GetKey	for anotha one
+GetKey	give me anotha one
+GetKey	to give me anotha one
 GetKey	anotha one
 GetKey	for another key
+GetKey	give me another key
+GetKey	to give me another key
 GetKey	another key
 GetKey	for anotha key
+GetKey	give me anotha key
+GetKey	to give me anotha key
 GetKey	anotha key
