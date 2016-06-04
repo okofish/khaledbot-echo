@@ -15,11 +15,9 @@ app.intent('GetKey', {
   response.say(key);
 });
 
-app.messages.NO_INTENT_FOUND = 'KhaledBot didn\'t understand that request. Congratulations, you played yourself.'
-
-app.error = function(exception, request, response) {
-    response.say('Sorry, KhaledBot encountered an error. They don\'t want us to win.');
-};
+app.messages.INVALID_REQUEST_TYPE = app.messages.NO_INTENT_FOUND = 'KhaledBot didn\'t understand that request. Congratulations, you played yourself.';
+app.messages.NO_LAUNCH_FUNCTION = 'Try asking KhaledBot for a key to success instead of opening it. Lion.';
+app.messages.GENERIC_ERROR = 'Sorry, KhaledBot encountered an error. They don\'t want us to win.';
 
 // Checking if we're actually being run as a module (in this case, as a Lambda function.)
 if (module.parent) {
