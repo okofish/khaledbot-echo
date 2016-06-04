@@ -18,3 +18,7 @@ GetKey	for another one
 GetKey	another one
 GetKey	for anotha one
 GetKey	anotha one
+GetKey	for another key
+GetKey	another key
+GetKey	for anotha key
+GetKey	anotha key
