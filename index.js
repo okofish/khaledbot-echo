@@ -15,7 +15,10 @@ app.intent('GetKey', {
   response.say(key);
 });
 
-app.messages.NO_LAUNCH_FUNCTION = 'Try asking KhaledBot for a key to success instead of opening it. Lion.';
+app.launch(function(request, response) {
+  response.reprompt('Try asking ' + app.name + ' for a key to success instead of opening it directly.')
+})
+
 app.messages.INVALID_REQUEST_TYPE = app.messages.NO_INTENT_FOUND = app.name + ' didn\'t understand that request. Congratulations, you played yourself.';
 app.messages.GENERIC_ERROR = 'Sorry, ' + app.name + ' encountered an error. They don\'t want us to win.';
 
