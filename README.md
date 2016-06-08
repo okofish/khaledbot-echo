@@ -1,12 +1,12 @@
-# KhaledBot
-KhaledBot is a skill for Amazon Echo that recites one of DJ Khaled's keys to success whenever you feel they don't want you to win.
+# MajorKeys
+MajorKeys is a skill for Amazon Echo that recites one of DJ Khaled's keys to success whenever you feel they don't want you to win.
 
 ### Use
-> Alexa, ask KhaledBot for a key.
+> Alexa, ask MajorKeys for a key.
 
 []()
 
-> Alexa, ask KhaledBot for another one.
+> Alexa, ask MajorKeys for another one.
 
 Yeah, it's not very fancy.
 

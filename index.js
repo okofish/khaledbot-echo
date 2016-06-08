@@ -1,11 +1,11 @@
-// KhaledBot for Amazon Echo, inspired by http://khaledbot.com/ and http://www.theydontwantyouto.win/.
+// MajorKeys for Amazon Echo, inspired by http://khaledbot.com/ and http://www.theydontwantyouto.win/.
 // List of major keys from http://khaledipsum.com/
 
 var alexa = require('alexa-app'),
   _ = require('underscore'),
   keys = require('./keys.js');
 
-var app = new alexa.app('KhaledBot');
+var app = new alexa.app('MajorKeys');
 
 app.intent('GetKey', {
   slots: {},
