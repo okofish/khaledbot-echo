@@ -16,10 +16,9 @@ app.intent('GetKey', {
 });
 
 app.intent('AMAZON.HelpIntent', function(request, response) {
-  response
-    .say('Try saying, "give me a key to success". What would you like to ask ' + app.name + '?')
-    .shouldEndSession(false)
-    .reprompt('What would you like to ask ' + app.name + '?');
+  response.say('Try saying, "give me a key to success". What would you like to ask ' + app.name + '?');
+  response.shouldEndSession(false);
+  response.reprompt('What would you like to ask ' + app.name + '?');
 });
 
 app.launch(function(request, response) {
