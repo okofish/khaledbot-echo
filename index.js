@@ -17,7 +17,10 @@ app.intent('GetKey', {
 
 app.launch(function(request, response) {
   // Amazon requires us to handle the "no-intent" launch invocation with a help message and a reprompt.
-  response.say('Try asking ' + app.name + ' for a key to success instead of opening it directly.').shouldEndSession(false);
+  response.say('Try asking ' + app.name + ' for a key to success instead of opening it directly.');
+  response.say('What would you like to ask ' + app.name + '?')
+  response.shouldEndSession(false);
+  response.reprompt('What would you like to ask ' + app.name + '?');
 })
 
 app.messages.INVALID_REQUEST_TYPE = app.messages.NO_INTENT_FOUND = app.name + ' didn\'t understand that request. Congratulations, you played yourself.';
