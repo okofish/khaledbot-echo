@@ -1,6 +1,10 @@
 {
    "intents": [
       {
+         "intent": "AMAZON.HelpIntent",
+         "slots": []
+      },
+      {
          "intent": "GetKey",
          "slots": []
       }

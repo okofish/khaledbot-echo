@@ -15,6 +15,13 @@ app.intent('GetKey', {
   response.say(key);
 });
 
+app.intent('AMAZON.HelpIntent', function(request, response) {
+  response
+    .say('Try saying, "give me a key to success". What would you like to ask ' + app.name + '?')
+    .shouldEndSession(false)
+    .reprompt('What would you like to ask ' + app.name + '?');
+});
+
 app.launch(function(request, response) {
   // Amazon requires us to handle the "no-intent" launch invocation with a help message and a reprompt.
   response.say('Try asking ' + app.name + ' for a key to success instead of opening it directly.');
