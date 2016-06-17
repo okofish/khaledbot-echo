@@ -1,5 +1,7 @@
 # MajorKeys
-MajorKeys is a skill for Amazon Echo that recites one of DJ Khaled's keys to success whenever you feel they don't want you to win.
+MajorKeys is a skill for Amazon Echo and Alexa-compatible devices that recites one of DJ Khaled's keys to success whenever you feel they don't want you to win.
+
+## You can install this skill on your Echo right now! Just search the skill store for *MajorKeys*.
 
 ### Use
 > Alexa, ask MajorKeys for a key.
